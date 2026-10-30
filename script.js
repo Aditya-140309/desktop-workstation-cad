@@ -38,8 +38,10 @@
   add('monitor', box(3.6, 2.1, .14), 0x0c0e14, .6, 2.75, 0);
   add('monitor', box(3.3, 1.85, .02), 0x0a1a3a, .6, 2.75, .08, { emissive: 0x1d4fb8, emissiveIntensity: .35 });
   // Stand
-  add('stand', box(.22, 5.8, .16), 0x2b303d, .6, .85, -.02);
-  add('stand', box(1.6, .06, 1), 0x2b303d, .6, .03, -.1);
+  // Monitor stand: neck, pedestal base, and mounting bracket
+  add('stand', box(0.28, 1.72, 0.30), 0x68758c, 0.6, 0.87, 0.0);
+  add('stand', box(1.50, 0.14, 0.85), 0x68758c, 0.6, 0.08, -0.12);
+  add('stand', box(0.48, 0.18, 0.32), 0x454d60, 0.6, 1.68, 0.0);
   // Keyboard with canvas key-grid texture
   const c = document.createElement('canvas'); c.width = 256; c.height = 80; const g = c.getContext('2d');
   g.fillStyle = '#10131b'; g.fillRect(0, 0, 256, 80); g.fillStyle = '#2b3345';
