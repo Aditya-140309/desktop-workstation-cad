@@ -35,7 +35,7 @@
   add('cpu', box(.8, .08, .02), 0x2a2f3c, -2.9, 2.1, 1.06);
   add('cpu', box(.8, .08, .02), 0x2a2f3c, -2.9, 1.95, 1.06);
   // Monitor
-  add('monitor', box(3.6, 2.1, .14), 0x0c0e14, .6, 2.75, 0);
+  add('monitor', box(5.9, 2.1, .14), 0x0c0e14, .6, 2.75, 0);
   add('monitor', box(3.3, 1.85, .02), 0x0a1a3a, .6, 2.75, .08, { emissive: 0x1d4fb8, emissiveIntensity: .35 });
   // Stand
   add('stand', box(.22, 5.8, .16), 0x2b303d, .6, .85, -.02);
