@@ -38,7 +38,7 @@
   add('monitor', box(3.6, 2.1, .14), 0x0c0e14, .6, 2.75, 0);
   add('monitor', box(3.3, 1.85, .02), 0x0a1a3a, .6, 2.75, .08, { emissive: 0x1d4fb8, emissiveIntensity: .35 });
   // Stand
-  add('stand', box(.22, 1.64, .16), 0x2b303d, .6, .88, -.15);
+  add('stand', box(.22, 1.8, .16), 0x2b303d, .6, .85, -.02);
   add('stand', box(1.6, .06, 1), 0x2b303d, .6, .03, -.1);
   // Keyboard with canvas key-grid texture
   const c = document.createElement('canvas'); c.width = 256; c.height = 80; const g = c.getContext('2d');
